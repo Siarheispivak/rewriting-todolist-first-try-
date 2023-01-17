@@ -60,8 +60,6 @@ export const Todolist = (props: TodolistPropsType) => {
     const removeTodolist = () => {
         props.removeTodolist(props.todolistId)
     }
-
-
     const changeTodolistTitle = (title: string) => {
         props.changeTodoListTitle(props.todolistId,title)
     }
