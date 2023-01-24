@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5794067-1c50-4733-930b-4e34e7199647" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/store/task-reducer.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/todolists-tasks-reducer.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/task-reducer.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/task-reducer.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/tasks-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/tasks-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/todolist-reducer.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/todolist-reducer.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/todolist-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/todolist-reducer.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,33 +61,7 @@
       <recent name="D:\rewriting todolist(first try)\my-app\src\store" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.new array should be added when new todolist is added">
-    <configuration name="change specified task status" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/store/task-reducer.test.ts" />
-      <test-names>
-        <test-name value="change specified task status" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="change specified task title" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/store/task-reducer.test.ts" />
-      <test-names>
-        <test-name value="change specified task title" />
-      </test-names>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Jest.property with todolistId should be deleted">
     <configuration name="ids should be equals" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -114,6 +88,32 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="new todolist should be added" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/store/todolist-reducer.test.ts" />
+      <test-names>
+        <test-name value="new todolist should be added" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="property with todolistId should be deleted" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/store/task-reducer.test.ts" />
+      <test-names>
+        <test-name value="property with todolistId should be deleted" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="title of specified task should be changed" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -129,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.property with todolistId should be deleted" />
+        <item itemvalue="Jest.new todolist should be added" />
         <item itemvalue="Jest.new array should be added when new todolist is added" />
         <item itemvalue="Jest.ids should be equals" />
         <item itemvalue="Jest.title of specified task should be changed" />
-        <item itemvalue="Jest.change specified task title" />
-        <item itemvalue="Jest.change specified task status" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +152,7 @@
       <workItem from="1674040604339" duration="3615000" />
       <workItem from="1674228151532" duration="3792000" />
       <workItem from="1674232029489" duration="3414000" />
-      <workItem from="1674577168088" duration="8091000" />
+      <workItem from="1674577168088" duration="11434000" />
     </task>
     <task id="LOCAL-00001" summary="feat:some functions for todolist and tasks">
       <created>1673973994312</created>
@@ -175,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674055686551</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat:Task-Reducer and Todolist-Task-Reducer is done">
+      <created>1674588531924</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674588531924</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +192,7 @@
     <MESSAGE value="feat:some functions for todolist and tasks" />
     <MESSAGE value="feat:start to make todolist reducer and tests for it" />
     <MESSAGE value="feat:Todolist Reducer is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:Todolist Reducer is done" />
+    <MESSAGE value="feat:Task-Reducer and Todolist-Task-Reducer is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:Task-Reducer and Todolist-Task-Reducer is done" />
   </component>
 </project>
